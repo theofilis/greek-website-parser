@@ -7,7 +7,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2:exec</goal>
             </goals>
             <properties>
-                <exec.args>-classpath %classpath ${packageClassName} index.html index.csv</exec.args>
+                <exec.args>-classpath %classpath ${packageClassName} text_1.html text_2.html text_3.html text_4.html text_5.html text_6.html text_7.html text_8.html index.csv</exec.args>
                 <exec.executable>java</exec.executable>
                 <exec.classpathScope>runtime</exec.classpathScope>
             </properties>
@@ -19,7 +19,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2:exec</goal>
             </goals>
             <properties>
-                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath ${packageClassName} index.html index.csv</exec.args>
+                <exec.args>-Xdebug -Xrunjdwp:transport=dt_socket,server=n,address=${jpda.address} -classpath %classpath ${packageClassName} text_1.html text_2.html text_3.html text_4.html text_5.html text_6.html text_7.html text_8.html index.csv</exec.args>
                 <exec.executable>java</exec.executable>
                 <exec.classpathScope>runtime</exec.classpathScope>
                 <jpda.listen>true</jpda.listen>
@@ -32,7 +32,7 @@
                 <goal>org.codehaus.mojo:exec-maven-plugin:1.2:exec</goal>
             </goals>
             <properties>
-                <exec.args>${profiler.args} -classpath %classpath ${packageClassName} index.html index.csv</exec.args>
+                <exec.args>${profiler.args} -classpath %classpath ${packageClassName} text_1.html text_2.html text_3.html text_4.html text_5.html text_6.html text_7.html text_8.html index.csv</exec.args>
                 <exec.executable>${profiler.java}</exec.executable>
                 <profiler.action>profile</profiler.action>
             </properties>
