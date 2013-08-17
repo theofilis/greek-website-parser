@@ -15,6 +15,7 @@ import org.jsoup.nodes.Element;
 public class App {
 
     public static void main(String[] args) {
+        
         try {
             TreeMap<String, Integer> dictionary = new TreeMap<String, Integer>();
                     
