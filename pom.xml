@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>gr.theofilis</groupId>
-  <artifactId>ParseWebSite</artifactId>
+  <artifactId>ParseGreekWebSite</artifactId>
   <version>1.0</version>
   <packaging>jar</packaging>
 
-  <name>ParseWebSite</name>
+  <name>ParseGreekWebSite</name>
   <url>http://maven.apache.org</url>
 
   <properties>
